@@ -1,28 +1,52 @@
-# Vocal-Transformer: RealiTime voice character modification
+# 🎤 Vocal Transformer: Real-Time Voice Character Modification
 
-# ABSTRACT:
-This project documents the design of "Vocal Transformer," a real-time audio plug-in
-for converting vocal inputs into diﬀerent character voices. For creating unique vocal
-characters, such as robot, alien, child, giant, old, and choir voices, the plug-in
-generates formant modification, pitch alteration, voice duplication, and audio
-eﬀects. The plugin, developed with the JUCE framework, features a user interface
-with parameterized controls for precision transformation adjustment.
+## Overview
 
-# DESIGN:
-The Vocal Transformer is designed around the concept of "character presets" -
-predefined combinations of audio processing parameters that create recognizable
-voice types. Each character can be further customized by adjusting individual
-parameters, allowing for a wide range of possible transformations from subtle to
-extreme.
+**Vocal Transformer** is a real-time audio plugin designed to convert vocal inputs into a range of distinct character voices—such as robot, alien, child, giant, elder, and choir. Developed using the JUCE framework in C++, the plugin features a user-friendly interface and is optimized for creative media production, music, games, and film[1].
 
-# Plugin Interface:
-<img width="698" alt="Screenshot 2025-04-09 at 7 57 43 PM" src="https://github.com/user-attachments/assets/2cdfe48f-af4c-43d8-9b77-7b7b6562e6a1" />
+---
 
-# Character Voice Transformations:
-Audio samples demonstrate the plugin's ability to transform voices.
+## ✨ Key Features
 
-Robot transformation waveform:
-<img width="1582" alt="Screenshot 2025-04-10 at 3 14 23 PM" src="https://github.com/user-attachments/assets/ee65fe02-3932-4b39-9f97-34d3cb3f4522" />
-Giant transformation waveform:
-<img width="1582" alt="Screenshot 2025-04-10 at 3 16 01 PM" src="https://github.com/user-attachments/assets/872e3aac-8b45-44cf-b45f-f7838e22c1d2" />
+- **Multiple Character Presets:** Instantly transform voices into various characters (robot, alien, child, giant, elder, choir, etc.).
+- **Customizable Parameters:** Fine-tune pitch shift, formant shift, voice count, detune, and reverb for each character.
+- **Real-Time Processing:** Designed for low-latency, real-time operation.
+- **Intuitive User Interface:**
+  - Character selection dropdown
+  - Character strength control
+  - Individual parameter controls with unique color coding
+  - Visual character icon that changes with preset
+  - Logically grouped, visually intuitive controls
+- **Advanced DSP Components:**
+  - Tanh-based soft clipping distortion
+  - High-pass (low cut) filtering
+  - Tone control via frequency shaping
+  - Reverb using JUCE’s built-in processor
 
+---
+
+## 🛠 Implementation
+
+- **Language & Framework:** C++ with JUCE for cross-platform audio plugin development.
+- **Custom UI:** Built with JUCE’s graphics capabilities, including custom rotary sliders, and path-based character icons.
+
+---
+
+## 🎛 Character Presets & Parameters
+
+| Character | Pitch Shift | Formant Shift | Voice Count | Detune | Reverb |
+|-----------|------------|--------------|-------------|--------|--------|
+| Normal    | 0.0        | 0.5          | 1           | 0.0    | 0.2    |
+| Robot     | -2.0       | 0.5          | 1           | 0.0    | 0.1    |
+| Alien     | 3.0        | 0.7          | 2           | 0.7    | 0.6    |
+| Child     | 4.0        | 0.8          | 1           | 0.2    | 0.3    |
+| Giant     | -6.0       | 0.2          | 1           | 0.0    | 0.5    |
+| Elder     | -1.0       | 0.3          | 1           | 0.3    | 0.4    |
+| Choir     | 0.0        | 0.5          | 4           | 0.4    | 0.8    |
+
+---
+
+
+---
+
+*This project demonstrates real-time voice transformation using digital signal processing and a modern plugin framework. Explore the code, try the plugin, and feel free to contribute or suggest improvements!*[1]
