@@ -18,7 +18,7 @@
   - Visual character icon that changes with preset
   - Logically grouped, visually intuitive controls
     
-<img src="images/example.png" alt="Alt text" width="50%" />
+<img src="Simulation/UserInterfacePlugin.png" alt="Alt text" width="50%" />
 
 
 - **Advanced DSP Components:**
