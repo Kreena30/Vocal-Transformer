@@ -17,11 +17,15 @@
   - Individual parameter controls with unique color coding
   - Visual character icon that changes with preset
   - Logically grouped, visually intuitive controls
+    
+![Alt text](images/example.png)
+
 - **Advanced DSP Components:**
   - Tanh-based soft clipping distortion
   - High-pass (low cut) filtering
   - Tone control via frequency shaping
   - Reverb using JUCE’s built-in processor
+
 
 ---
 
@@ -45,4 +49,6 @@
 | Choir     | 0.0        | 0.5          | 4           | 0.4    | 0.8    |
 
 ---
+
+## 🧪 Evaluation
 
