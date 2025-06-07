@@ -2,7 +2,7 @@
 
 ## Overview
 
-**Vocal Transformer** is a real-time audio plugin designed to convert vocal inputs into a range of distinct character voices—such as robot, alien, child, giant, elder, and choir. Developed using the JUCE framework in C++, the plugin features a user-friendly interface and is optimized for creative media production, music, games, and film[1].
+**Vocal Transformer** is a real-time audio plugin designed to convert vocal inputs into a range of distinct character voices—such as robot, alien, child, giant, elder, and choir. Developed using the JUCE framework in C++, the plugin features a user-friendly interface.
 
 ---
 
