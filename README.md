@@ -46,7 +46,3 @@
 
 ---
 
-
----
-
-*This project demonstrates real-time voice transformation using digital signal processing and a modern plugin framework. Explore the code, try the plugin, and feel free to contribute or suggest improvements!*[1]
