@@ -18,7 +18,7 @@
   - Visual character icon that changes with preset
   - Logically grouped, visually intuitive controls
     
-<img src="Simulation/UserInterfacePlugin.png" alt="Alt text" width="50%" />
+<img src="Simulation/UserInterfacePlugin.png" alt="Alt text" width="70%" />
 
 
 - **Advanced DSP Components:**
@@ -52,4 +52,8 @@
 ---
 
 ## 🧪 Evaluation
+# Robot transformation Spectogram
+<img src="Simulation/Robot_Spectogram.png" alt="Alt text" width="70%" />
 
+# Giant transformation Spectogram
+<img src="Simulation/Robot_Spectogram.png" alt="Alt text" width="70%" />
