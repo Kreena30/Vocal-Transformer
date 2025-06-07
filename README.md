@@ -18,7 +18,7 @@
   - Visual character icon that changes with preset
   - Logically grouped, visually intuitive controls
     
-![Alt text](images/example.png)
+![Alt text](Simulation/UserInterfacePlugin.png)
 
 - **Advanced DSP Components:**
   - Tanh-based soft clipping distortion
