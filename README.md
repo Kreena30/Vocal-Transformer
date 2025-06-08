@@ -1,4 +1,4 @@
-# 🎤 Vocal Transformer: Real-Time Voice Character Modification
+# Vocal Transformer: Real-Time Voice Character Modification
 
 ## Overview
 
@@ -6,7 +6,7 @@
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 - **Multiple Character Presets:** Instantly transform voices into various characters (robot, alien, child, giant, elder, choir, etc.).
 - **Customizable Parameters:** Fine-tune pitch shift, formant shift, voice count, detune, and reverb for each character.
@@ -30,14 +30,14 @@
 
 ---
 
-## 🛠 Implementation
+## Implementation
 
 - **Language & Framework:** C++ with JUCE for cross-platform audio plugin development.
 - **Custom UI:** Built with JUCE’s graphics capabilities, including custom rotary sliders, and path-based character icons.
 
 ---
 
-## 🎛 Character Presets & Parameters
+## Character Presets & Parameters
 
 | Character | Pitch Shift | Formant Shift | Voice Count | Detune | Reverb |
 |-----------|------------|--------------|-------------|--------|--------|
@@ -51,7 +51,7 @@
 
 ---
 
-## 🧪 Evaluation
+## Evaluation
 # Robot transformation Spectogram
 <img src="Simulation/Robot_Spectogram.png" alt="Alt text" width="50%" />
 
